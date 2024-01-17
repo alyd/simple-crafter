@@ -1,4 +1,4 @@
-**Status:** Stable release
+Simplified version of [Crafter](https://github.com/danijar/crafter/) used in human study, with longer daylight and fewer actions. 
 
 [![PyPI](https://img.shields.io/pypi/v/crafter.svg)](https://pypi.python.org/pypi/crafter/#history)
 
