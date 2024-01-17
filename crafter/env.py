@@ -135,7 +135,7 @@ class Env(BaseClass):
   def _update_time(self):
     # https://www.desmos.com/calculator/grfbc6rs3h
     progress = (self._step / 300) % 1 + 0.3
-    daylight = 1 - np.abs(np.cos(np.pi * progress)) ** 3
+    daylight = 1 - np.abs(np.cos(np.pi * progress / 2)) ** 12
     self._world.daylight = daylight
 
   def _balance_chunk(self, chunk, objs):
