@@ -1,4 +1,15 @@
-Simplified version of [Crafter](https://github.com/danijar/crafter/) used in human study, with longer daylight and fewer actions. 
+Simplified version of [Crafter](https://github.com/danijar/crafter/) used in human study (data at github.com/alyd/kids_crafter_dataset), with longer daylight and fewer actions. 
+To set up this version to train your own agents in it:
+
+```sh
+conda env create -f conda_env.yml
+conda activate explcrafter
+cd crafter
+git clone https://github.com/alyd/simple-crafter
+cd crafter
+pip install -e crafter
+
+```
 
 [![PyPI](https://img.shields.io/pypi/v/crafter.svg)](https://pypi.python.org/pypi/crafter/#history)
 
