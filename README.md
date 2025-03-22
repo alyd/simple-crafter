@@ -1,4 +1,4 @@
-Simplified version of [Crafter](https://github.com/danijar/crafter/) used in human study (data at github.com/alyd/kids_crafter_dataset), with longer daylight and fewer actions. 
+Simplified version of [Crafter](https://github.com/danijar/crafter/) used in human study (data at github.com/alyd/humans_in_crafter_data), with longer daylight and fewer actions. 
 To set up this version to train your own agents in it:
 
 ```sh
